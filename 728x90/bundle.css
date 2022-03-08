@@ -1,0 +1,148 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+html {
+  font-size: 1em; }
+
+body {
+  font-size: 100%; }
+
+a img, :link img, :visited img {
+  border: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.alpha-0 {
+  opacity: 0; }
+
+.invisible {
+  visibility: hidden; }
+
+.none {
+  display: none; }
+
+.offstage {
+  position: absolute;
+  left: -4000px;
+  top: -4000px; }
+
+.transform-reset {
+  transform: none !important; }
+
+.anti-alias, .white-text-alias-mac {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.gpu {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transform: translateZ(0); }
+
+@supports (-moz-appearance: meterbar) {
+  .gpu {
+    transform: translateZ(0) rotate(0.02deg); } }
+
+#ad_content {
+  background: white;
+  cursor: pointer;
+  border: 1px solid black;
+  font-family: Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  background: url("backup.jpg") -1px -1px no-repeat; }
+  #ad_content div, #ad_content svg {
+    position: absolute;
+    transform: translate3d(0, 0, 0); }
+
+.backup {
+  background: url("backup.jpg") -1px -1px no-repeat;
+  background-size: 728px 90px;
+  border: 1px solid black;
+  cursor: pointer;
+  position: absolute;
+  width: 728px;
+  height: 90px; }
+
+#animation {
+  top: -19px;
+  left: 293px; }
+
+#blue {
+  width: 129px;
+  height: 90px;
+  background: #002857;
+  right: 0; }
+
+#txt3 {
+  left: 21px;
+  top: 72px; }
+
+#txt2 {
+  left: 19px;
+  top: 43px; }
+
+#txt1 {
+  left: 18px;
+  top: 15px; }
+
+#cta {
+  left: 619px;
+  top: 9px; }
+
+#logo {
+  left: 621px;
+  top: 28px; }
+
+.sprite-jpg { background-image: url('sprite.jpg') }
+.sprite-jpg.bg {
+  width: 970px;
+  height: 202px;
+  background-position: 0px 0px; }
+.sprite-png { background-image: url('sprite.png') }
+.sprite-png.cta {
+  width: 93px;
+  height: 27px;
+  background-position: -93px -210px;
+  background-size: 297px 243px; }
+.sprite-png.fruits {
+  width: 293px;
+  height: 202px;
+  background-position: 0px 0px; }
+.sprite-png.leaf {
+  width: 293px;
+  height: 202px;
+  background-position: -300px 0px; }
+.sprite-png.logo {
+  width: 90px;
+  height: 33px;
+  background-position: 0px -210px;
+  background-size: 297px 243px; }
+.sprite-png.oats {
+  width: 293px;
+  height: 202px;
+  background-position: 0px -210px; }
+.sprite-png.pack {
+  width: 293px;
+  height: 202px;
+  background-position: -300px -210px; }
+.sprite-svg { background: url('sprite.svg') no-repeat; }
+.sprite-svg.txt1 {
+  background-position: 0 0;
+  width: 270.34px;
+  height: 24.66px; }
+.sprite-svg.txt2 {
+  background-position: 0 76.25231910946196%;
+  width: 268.09px;
+  height: 17.66px; }
+.sprite-svg.txt3 {
+  background-position: 0 99.20300046882326%;
+  width: 167.16px;
+  height: 7.34px; }
